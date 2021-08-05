@@ -1,6 +1,20 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Aug  5 18:08:55 2021
+from setuptools import setup
 
-@author: augus
-"""
+setup(
+    name='academic_tweet',
+    version='0.1.0',    
+    description='An API wrapper for academic track access to the v2 Twitter API',
+    url='https://github.com/A-Lohse/academic_tweet',
+    author='August Lohse',
+    author_email='al@augustlohse.com',
+    license='MIT license',
+    license_files = "license.txt",
+    packages=['academic_tweet'],
+    install_requires= ['requests', 'time'],
+    classifiers=[
+        'Development Status :: Unsupported',
+        'Intended Audience :: Science/Research',
+        'License :: MIT License',
+        'Operating System :: Windows 10',        
+        'Programming Language :: Python :: 3.7.9']
+)
