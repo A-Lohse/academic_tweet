@@ -199,7 +199,6 @@ class tweeter:
                         data['meta']['next_token']
                     
                     except KeyError:
-                        print("no more pages - scraping stopped")
                     
                     #remove the next_token from the params, in case we want to run it again from start
                         try:
@@ -212,7 +211,15 @@ class tweeter:
                         
                         
                 except:
-                    pass
+                    
+                    #remove the next_token from the params, in case we want to run it again from start
+                    try:
+                        self.params.popitem()
+                    except:
+                        pass
+                    
+                    #no more things to scrape
+                        break
 
             #print information
             print("Working on page {}".format(str(i+1)), end='\r')
@@ -223,7 +230,7 @@ class tweeter:
             #update counter
             i += 1
 
-
+        print("All done!")
 
         #make to list
         final_list = []
