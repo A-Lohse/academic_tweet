@@ -13,9 +13,8 @@ setup(
     packages=['academic_tweet'],
     install_requires= ['requests', 'time'],
     classifiers=[
-        'Development Status :: Unsupported',
+        'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
-        'License :: MIT License',
-        'Operating System :: Windows 10',        
-        'Programming Language :: Python :: 3.7.9']
+        'License :: OSI Approved :: MIT License',    
+        'Programming Language :: Python :: 3.7',],
 )
