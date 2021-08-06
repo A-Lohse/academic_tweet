@@ -11,7 +11,7 @@ setup(
     license='MIT',
     license_files = "license.txt",
     packages=['academic_tweet'],
-    install_requires= ['requests', 'time'],
+    install_requires= ['requests'],
     classifiers=[
         'Development Status :: 3 - Alpha',
         'Intended Audience :: Science/Research',
