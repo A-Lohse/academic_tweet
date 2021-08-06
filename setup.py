@@ -5,7 +5,7 @@ setup(
     version='0.1.0',    
     description='An API wrapper for academic track access to the v2 Twitter API',
     url='https://github.com/A-Lohse/academic_tweet',
-    download_url = "https://github.com/A-Lohse/academic_tweet/archive/refs/tags/v0.1.tar.gz",
+    download_url = "https://github.com/A-Lohse/academic_tweet/archive/refs/tags/v0.2.tar.gz",
     author='August Lohse',
     author_email='al@augustlohse.com',
     license='MIT',
